@@ -4,7 +4,8 @@
   "description": "\"aprendiendo node\"",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon nuevo.js"
+    "start": "nodemon nuevo.js",
+    "dev": "nodemon nuevo.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,8 @@
   "homepage": "https://gitlab.com/URMART1/aprendiendonodeurrutia#readme",
   "dependencies": {
     "axios": "^0.27.2",
+    "bootstrap": "^5.2.0",
+    "ejs": "^3.1.8",
     "express": "^4.18.1",
     "mongodb": "^4.8.1",
     "mongoose": "^6.5.0"
